@@ -1,0 +1,24 @@
+* {
+    list-style: none;
+}
+.center {
+    text-align: center;
+}
+
+button {
+    width: 60px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    background-color: yellow;
+}
+
+input {
+    width: 600px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    margin-bottom: 23px;
+}

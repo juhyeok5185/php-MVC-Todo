@@ -29,18 +29,21 @@ $tasks = $controller->getAllTasks();
 <html>
 <head>
     <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <h1>TODO List</h1>
-
+<nav class="navigation">
+        <h1 class="center">TODO List</h1>
+    </nav>
     <!-- 할 일 추가 폼 -->
-    <form method="post">
+    <form method="post" class="center">
         <input type="text" name="content" placeholder="할 일 내용" required>
         <button type="submit" name="add">추가</button>
     </form>
 
     <!-- 할 일 목록 -->
-    <ul>
+    <ul class="center">
         <?php foreach ($tasks as $task) : ?>
             <li>
                 <form method="post" style="display:inline;">
